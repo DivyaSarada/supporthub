@@ -15,7 +15,7 @@ function AdminLogin() {
     const handleLogin = (e) => {
         e.preventDefault();
         axios
-          .post("/login/admin", { email, password })
+          .post("https://tim-bunnyhug-76605.herokuapp.com/login/admin", { email, password })
           .then((res) => {
             if (res.data.message == "allow") {
               localStorage.setItem("user", JSON.stringify(res.data));

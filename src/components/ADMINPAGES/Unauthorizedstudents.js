@@ -10,7 +10,7 @@ function Unauthorizedstudents() {
      
 
       axios
-        .post("/admin/unauthorizedusers", {
+        .post("https://tim-bunnyhug-76605.herokuapp.com/admin/unauthorizedusers", {
           "designation":  subject
         })
         .then((res) => {
@@ -23,7 +23,7 @@ function Unauthorizedstudents() {
     };
     useEffect(() => {
       axios
-      .post("/admin/unauthorizedusers", {
+      .post("https://tim-bunnyhug-76605.herokuapp.com/admin/unauthorizedusers", {
         "designation":  subject
       })
       .then((res) => {
@@ -38,7 +38,7 @@ function Unauthorizedstudents() {
 
     const Deleteuser=(id,designation)=>{
         axios
-        .post("/admin/unauthorizedusers/delete", {
+        .post("https://tim-bunnyhug-76605.herokuapp.com/admin/unauthorizedusers/delete", {
           "designation":  designation,
           "id":id
         })
@@ -51,7 +51,7 @@ function Unauthorizedstudents() {
     }
     const Approveuser=(id,designation)=>{
         axios
-        .post("/admin/unauthorizedusers/verify", {
+        .post("https://tim-bunnyhug-76605.herokuapp.com/admin/unauthorizedusers/verify", {
           "designation":  designation,
           "id":id
         })

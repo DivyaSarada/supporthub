@@ -7,7 +7,7 @@ function QuestionsPosted() {
         
        
         axios
-       .get("/admin/studentquestions")
+       .get("https://tim-bunnyhug-76605.herokuapp.com/admin/studentquestions")
        .then(res => 
          {setfacultyarray(res.data)
         })

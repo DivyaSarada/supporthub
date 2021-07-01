@@ -6,7 +6,7 @@ function QuestionsAnswered() {const [facultyarray, setfacultyarray] = useState([
         
        
         axios
-       .get("/admin/facultyanswers")
+       .get("https://tim-bunnyhug-76605.herokuapp.com/admin/facultyanswers")
        .then(res => 
          {setfacultyarray(res.data)
         })
