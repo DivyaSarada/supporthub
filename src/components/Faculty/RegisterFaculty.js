@@ -32,7 +32,7 @@ const user={
 "count":0
 }
 
-let reg= await axios.post("/register/faculty",user)
+let reg= await axios.post("https://tim-bunnyhug-76605.herokuapp.com/register/faculty",user)
 console.log(reg.data)
 
     alert(reg.data.message)

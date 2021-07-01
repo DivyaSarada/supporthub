@@ -11,7 +11,7 @@ function Myticket() {
     const [isdelete,setisdelete] =useState(false)
     const handleDelete=(id)=>{
       axios
-          .post("/deletequery",{"id":id})
+          .post("https://tim-bunnyhug-76605.herokuapp.com/deletequery",{"id":id})
           .then(res => 
             {setisdelete(!isdelete)
             console.log(res)})
@@ -22,7 +22,7 @@ function Myticket() {
         
        
            axios
-          .post("/mytickets",{email:JSON.parse(localStorage.getItem("user"))?JSON.parse(localStorage.getItem("user")).email:null})
+          .post("https://tim-bunnyhug-76605.herokuapp.com/mytickets",{email:JSON.parse(localStorage.getItem("user"))?JSON.parse(localStorage.getItem("user")).email:null})
           .then(res => 
             {setmytickets(res.data)
            })

@@ -18,7 +18,7 @@ function FacultyHomepage() {
    
     document.getElementById(id).Value  =  ""
     axios
-      .post("/answertoken", ans)
+      .post("https://tim-bunnyhug-76605.herokuapp.com/answertoken", ans)
       .then((res) => {
         alert("answered")
         console.log(res);
@@ -32,7 +32,7 @@ function FacultyHomepage() {
     console.log(subject);
 
     axios
-      .post("/gettickets", { "subject": [subject] })
+      .post("https://tim-bunnyhug-76605.herokuapp.com/gettickets", { "subject": [subject] })
       .then((res) => {if(res.data[0].message){
         setmytickets([]);}
         else{

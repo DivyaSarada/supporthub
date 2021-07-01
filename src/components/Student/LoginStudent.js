@@ -19,7 +19,7 @@ function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
     axios
-      .post("/login/student", { email, password })
+      .post("https://tim-bunnyhug-76605.herokuapp.com/login/student", { email, password })
       .then((res) => {
         if (res.data.message == "allow") {
           localStorage.setItem("user", JSON.stringify(res.data));

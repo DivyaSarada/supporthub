@@ -28,7 +28,7 @@ function CreateTicket() {
               
         }
         axios
-        .post("/createticket",ticket)
+        .post("https://tim-bunnyhug-76605.herokuapp.com/createticket",ticket)
         .then(res => 
           {alert(res.data.message)
           console.log(res.data)})
