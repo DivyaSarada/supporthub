@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://tim-bunnyhug-76605.herokuapp.com",
+  "proxy": "https://tim-bunnyhug-76605.herokuapp.com/",
   "eslintConfig": {
     "extends": [
       "react-app",

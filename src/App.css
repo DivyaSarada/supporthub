@@ -10,10 +10,6 @@ html{
     overflow: auto;
     -ms-overflow-style: none;
 }
-body{
-  
-  
-}
 body::-webkit-scrollbar{
     display: none;
   }
