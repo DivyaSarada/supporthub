@@ -1,5 +1,4 @@
 
-import './app.css'
 
 import Nav from './components/Nav';
 import { Route, Link,Switch } from "react-router-dom";
