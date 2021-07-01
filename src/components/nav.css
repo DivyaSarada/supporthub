@@ -1,0 +1,13 @@
+nav>img{
+    height: 7vh;
+    min-width: 100vw;
+    
+}
+b{
+font-size: 7vh;
+color: white;}
+nav{
+    display: flex;
+   
+    justify-content: center;
+}

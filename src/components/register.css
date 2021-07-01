@@ -1,0 +1,50 @@
+.register{
+    min-height: 93vh;
+    background: url("./imgs/cover-img.png");
+    background-position:center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.card{
+    padding: 5vh;
+    min-width: 95vh;
+    min-height: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,0.5);
+    color: white;
+}
+input{
+    background: black;
+    margin: 1rem;
+   border-style: none;
+   padding: 1vh;
+   min-width: 50vh;
+   color: #fff;
+}
+.register-btn{
+  background-color: aqua;
+  border-style:none ;
+  cursor: pointer;
+  padding: 1vh;
+  border-radius: 1vh;
+  min-width: 25vh;
+ 
+  font-size: 2rem;
+    transform: translate(bor) ;
+    margin: 3vh;
+}
+.register-btn:hover{
+    background-color: green;
+    
+}
+.login-btn
+{
+    margin: 2vh;
+}

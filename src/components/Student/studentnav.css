@@ -1,0 +1,36 @@
+.studentnav{
+        background: rgb(13, 119, 103);
+        display: flex;
+        align-items: center;
+        justify-content: space-between ;
+         
+        width: 100%;
+        min-height: 5VH;
+        font-size: 5rem ;
+    }
+    .navcontainer{
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        width: 100%;
+    }
+
+    .Link{
+        font-style: none;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 2rem;
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 3px;
+
+    }
+
+    .studentnav>button{
+        align-items: flex-end   ;
+        font-size: 5rem ;
+        background-color: aqua;
+        border-radius: 10px;
+        border: none;
+        padding: 3px;
+    }

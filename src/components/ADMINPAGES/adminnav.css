@@ -1,0 +1,20 @@
+.adminnav{
+    background: rgb(13, 119, 103);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+     
+    width: 100%;
+    min-height: 5VH;
+    font-size: 5rem ;
+}
+
+.adminnav>button{
+    align-items: flex-end   ;
+    font-size: 5rem ;
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+    padding: 3px;
+}
+

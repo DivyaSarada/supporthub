@@ -1,0 +1,33 @@
+.home{
+    min-height: 94.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("./imgs/cover-img.png");
+    background-position:center;
+    background-size: cover;
+}
+.student ,.faculty{
+    font-size: 2rem;
+    padding: 30px;
+   margin: 30px;
+}
+.link{
+    background-color: aqua;
+    border-style:none ;
+    cursor: pointer;
+    padding: 1vh;
+    border-radius: 1vh;
+    min-width: 25vh;
+   
+    font-size: 2rem;
+      transform: translate(bor) ;
+      margin: 3vh;
+      text-decoration: none;
+
+}
+.home>.container{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}

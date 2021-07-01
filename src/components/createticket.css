@@ -1,0 +1,21 @@
+.createticket{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+
+   
+
+}
+.createticket>form{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+
+
+    justify-content: space-around;
+
+}
+form>div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
